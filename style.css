@@ -1,4 +1,6 @@
-
+.container {
+  padding: 10px;
+}
 
 h1, h2 {
   font-family: Lato;
