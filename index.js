@@ -20,13 +20,13 @@ document.getElementById('reset').addEventListener('click', function () {
 });
 
 function getPanelClass() {
-  const panelClasses = ['reading', 'blue', 'reflect', 'discuss'];
+  const panelClasses = ['info', 'blue', 'reflect', 'discuss'];
   for (const panelClass of panelClasses) {
     if (document.getElementById(panelClass).checked) {
       return panelClass;
     }
   }
-  return 'reading'; // Default panel class if no checkbox is selected
+  return 'info'; // Default panel class if no checkbox is selected
 }
 
 // function getActivityType(){
